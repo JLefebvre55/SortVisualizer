@@ -1,4 +1,4 @@
-package Sorting;
+package main.sorting;
 
 public enum Sorts {
 	INSERTION, BUBBLE, SELECTION, QUICK;

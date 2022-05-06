@@ -1,8 +1,1 @@
-/**
- * 
- */
-/**
- * @author jaydenlefebvre
- *
- */
-package Main;
+package main;

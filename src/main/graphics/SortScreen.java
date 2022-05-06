@@ -1,13 +1,13 @@
-package Graphics;
+package main.graphics;
 
 import java.awt.Color;
 import java.util.ArrayList;
 
-import Sorting.JLUtil;
-import Sorting.Sorter;
-import Sorting.Sorts;
+import main.sorting.JLUtil;
+import main.sorting.Sorter;
+import main.sorting.Sorts;
 
-public class SortScreen implements Main.Engine{
+public class SortScreen implements main.Engine{
 	
 	private int minx, miny, maxx, maxy;
 	private String titlestub = "";

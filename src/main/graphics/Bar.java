@@ -1,8 +1,8 @@
-package Graphics;
+package main.graphics;
 
 import java.awt.Color;
 
-import Main.Engine;
+import main.Engine;
 
 public class Bar implements Engine{
 

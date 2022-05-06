@@ -1,4 +1,4 @@
-package Graphics;
+package main.graphics;
 
 import java.awt.Canvas;
 import java.awt.Dimension;

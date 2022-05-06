@@ -1,12 +1,12 @@
-package Main;
+package main;
 
 import java.awt.Color;
 import java.util.ArrayList;
 
-import Graphics.FrameRenderer;
-import Graphics.SortScreen;
-import Graphics.Window;
-import Sorting.Sorts;
+import main.graphics.FrameRenderer;
+import main.graphics.SortScreen;
+import main.graphics.Window;
+import main.sorting.Sorts;
 
 public class Driver implements Runnable, Engine{
 
@@ -76,7 +76,7 @@ public class Driver implements Runnable, Engine{
 		
 		screens.add(new SortScreen(0, height/2, width/2, height, Sorts.QUICK));
 		
-		//screens.add(new SortScreen(width/2, 0, width, height/2, Sorts.INSERTION));
+		// screens.add(new SortScreen(width/2, 0, width, height/2, Sorts.INSERTION));
 
 		for(SortScreen s : screens) {
 			s.startSort();

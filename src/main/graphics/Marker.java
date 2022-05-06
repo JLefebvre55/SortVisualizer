@@ -1,9 +1,9 @@
-package Graphics;
+package main.graphics;
 
 import java.awt.Color;
 
-import Main.Driver;
-import Main.Engine;
+import main.Driver;
+import main.Engine;
 
 public class Marker implements Engine{
 

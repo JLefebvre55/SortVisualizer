@@ -1,8 +1,8 @@
-package Sorting;
+package main.sorting;
 
 import java.awt.Color;
 
-import Graphics.SortScreen;
+import main.graphics.SortScreen;
 
 public class Sorter implements Runnable{
 

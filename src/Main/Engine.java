@@ -1,6 +1,6 @@
-package Main;
+package main;
 
-import Graphics.FrameRenderer;
+import main.graphics.FrameRenderer;
 
 /**
  * ALL renderables must utilize update to be updated by main class

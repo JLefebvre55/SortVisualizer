@@ -1,10 +1,10 @@
-package Graphics;
+package main.graphics;
 
 import java.awt.Color;
 import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
 
-import Main.Driver;
+import main.Driver;
 
 /**
  * Renderer for screen frames. ALL update calls use this.
